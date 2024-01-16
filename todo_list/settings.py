@@ -26,6 +26,7 @@ SECRET_KEY = 'django-insecure-(b0zvlkvx7-d$13vvut8v0r$!q2ngxs@%bo4lzd0-e4*7=40qg
 DEBUG = True
 
 ALLOWED_HOSTS = ['8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
 
 
 # Application definition
