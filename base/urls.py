@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import TaskLisk
 
 urlpatterns = [
-    path('', views.tasklist, name='tasks'),
+    path('', TaskList.as_view(), name='tasks'),
 ]
