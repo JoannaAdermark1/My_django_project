@@ -11,9 +11,11 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 from pathlib import Path
-import os
 
+import os
 import dj_database_url
+
+development = os.environ.get('DEVELOPMENT', False)
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +29,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(b0zvlkvx7-d$13vvut8v0r$!q2ngxs@%bo4lzd0-e4*7=40qg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = development
 
 ALLOWED_HOSTS = ['myfirstdjangoproject-3acb455ce907.herokuapp.com']
 CSRF_TRUSTED_ORIGINS = ['https://8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
@@ -79,15 +81,16 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-   # 'default': {
-    #    'ENGINE': 'django.db.backends.sqlite3',
-    #    'NAME': BASE_DIR / 'db.sqlite3',
-   # }
-#}
-
-DATABASES = {
-   'default': dj_database_url.parse('postgres://nbhzjmxt:u21lFb-Eqqo1Z-By_mZNCB7tSpQq7vXW@hattie.db.elephantsql.com/nbhzjmxt')
+if development:
+   DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
+else:
+    DATABASES = {
+        'default': dj_database_url.parse('postgres://nbhzjmxt:u21lFb-Eqqo1Z-By_mZNCB7tSpQq7vXW@hattie.db.elephantsql.com/nbhzjmxt')
 }
 
 
