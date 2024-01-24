@@ -1,5 +1,7 @@
 # Django ToDo List Application
 
+To Do list app with User Registration, Login, Search and full Create Read Update and DELETE functionality.
+
 ## Overview
 
 This Django-based ToDo List application allows users to manage their tasks efficiently. Users can create, update, and delete tasks, mark them as complete, and search for specific tasks. The application uses Django's authentication system for user management.
@@ -32,7 +34,7 @@ This Django-based ToDo List application allows users to manage their tasks effic
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/todo-list.git
+    git clone  https://github.com/JoannaAdermark1/My_django_project.git
     ```
 
 2. Navigate to the project directory:
@@ -47,13 +49,13 @@ This Django-based ToDo List application allows users to manage their tasks effic
     pip install -r requirements.txt
     ```
 
-4. Apply database migrations:
+4. Applied database migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-5. Create a superuser account (optional but recommended):
+5. Created a superuser account 
 
     ```bash
     python manage.py createsuperuser
@@ -69,7 +71,7 @@ This Django-based ToDo List application allows users to manage their tasks effic
 
 2. Access the application in your web browser at `http://127.0.0.1:8000/`.
 
-3. Log in with your credentials or register for a new account.
+3. Log in with credentials or register for a new account.
 
 4. Explore the ToDo list features, create tasks, and manage your daily activities.
 

@@ -15,6 +15,9 @@ from pathlib import Path
 import os
 import dj_database_url
 
+if os.path.exists("env.py"):
+    import env # noqa
+
 development = os.environ.get('DEVELOPMENT', False)
 
 
@@ -31,7 +34,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-ALLOWED_HOSTS = ['myfirstdjangoproject-3acb455ce907.herokuapp.com']
+ALLOWED_HOSTS = ['myfirstdjangoproject-3acb455ce907.herokuapp.com', '8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
 CSRF_TRUSTED_ORIGINS = ['https://8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
 
 
@@ -81,20 +84,17 @@ WSGI_APPLICATION = 'todo_list.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-if development:
-   DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
 else:
     DATABASES = {
-        'default': dj_database_url.parse('postgres://nbhzjmxt:u21lFb-Eqqo1Z-By_mZNCB7tSpQq7vXW@hattie.db.elephantsql.com/nbhzjmxt')
-}
-
-
-
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
