@@ -8,10 +8,13 @@ This Django-based ToDo List application allows users to manage their tasks effic
 
 ## Table of Contents
 
+- [Introduction](#introduction)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Database Configuration](#database-configuration)
+- [Deploying on Heroku](#deploying-on-heroku)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -27,7 +30,7 @@ This Django-based ToDo List application allows users to manage their tasks effic
 
 - Python 3.x
 - Django 4.2
-- PostgreSQL (or any other supported database)
+- elephantsql
 
 ## Installation
 
@@ -62,7 +65,7 @@ This Django-based ToDo List application allows users to manage their tasks effic
     ```
 
 ## Usage
-
+How to run and use Django application.
 1. Run the development server:
 
     ```bash

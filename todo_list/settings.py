@@ -37,7 +37,6 @@ DEBUG = development
 ALLOWED_HOSTS = ['myfirstdjangoproject-3acb455ce907.herokuapp.com', '8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
 CSRF_TRUSTED_ORIGINS = ['https://8000-joannaaderm-mydjangopro-n7w2f9yd82t.ws-eu107.gitpod.io']
 
-
 # Application definition
 
 INSTALLED_APPS = [
