@@ -193,7 +193,7 @@ and in setting.py i had set DEBUG = development and the appliction was not funct
 Basic structure of and understanding of the page development taken from Code Institute project walkthrogh Hello Django and i think therefore i blog and 
 https://www.youtube.com/watch?v=llbtoQTt4qw  Dennis Ivy
 
-Acknowledgments:
+## Acknowledgments:
 I would like to express my sincere gratitude to the following for their valuable contributions and support throughout the project: Code institute tutor Jason, Oisin, Joanne, my mentor Jubril, my fellow student Femi Ashuri. thank you so much for your support.
 
 ## Contribution
