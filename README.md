@@ -15,10 +15,10 @@ This Django-based ToDo List application allows users to manage their tasks effic
 - [Usage](#usage)
 - [Database Configuration](#database-configuration)
 - [Deploying on Heroku](#deploying-on-heroku)
-- [404page] (#404page)
-- [Testing] (#testing)
-- [Debug] (#debug)
-- s[Contributing](#contributing) 
+- [404page](#404page)
+- [Testing](#testing)
+- [Debug](#debug)
+- [Contributing](#contributing) 
 - [License](#license)
 
 ## Features
