@@ -24,6 +24,7 @@ This Django-based ToDo List application allows users to manage their tasks effic
 ## Features
 
 - User authentication (login, register, logout)
+- 
 ## Login:
     Purpose: The login process is initiated when a user wants to access a secured system, application,
 #### Steps:
@@ -31,9 +32,15 @@ The user enters their username and password in the designated fields on the logi
 The system checks the entered credentials against stored user data (usually stored securely in a database).
 If the provided credentials match the stored information, the user is granted access to the system, and a session is established.
 
+![Screenshot 2024-01-25 at 23 30 25](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/6710d895-0fb6-41c1-b7c7-6e5b72ebbdc4)
+
 ## Register:
 
     Purpose: The registration process is necessary for new users who want to create an account and gain access to the system.
+    
+  ![Screenshot 2024-01-25 at 23 30 48](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/2478e5f0-a1d3-4c9a-b2fa-25fa6bfae2ca)
+
+
 
 ## Logout:
 
@@ -51,16 +58,25 @@ After logout, the user is typically redirected to a login page or a homepage, an
 The user navigates to the interface or page where tasks can be created.
 They input relevant information for the new task, such as a title, description, 
 
+![Screenshot 2024-01-25 at 23 34 08](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/deeb3cf0-e26c-4b10-8c9f-b73a0f0e4b9e)
+
+
 ## Update Task:
         Purpose: The update task operation allows users to modify the details of an existing task. 
 #### Steps:
 The user selects the task they want to update from their task list.
 They navigate to the task details page or a task editing interface.
 
+![Screenshot 2024-01-25 at 23 33 37](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/1141eab3-603f-43f4-a243-4d5715ea8360)
+
+### Delete task
+
+![Screenshot 2024-01-25 at 23 32 34](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/04aad1f3-7e11-4569-83a1-ffc08a99f207)
 
 - Mark tasks as complete
     Here you keep track of your progress and stay organized. 
     When you finish a task or accomplish a specific goal, you can mark that task as complete. 
+![Screenshot 2024-01-25 at 23 34 08](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/985d2353-183a-4532-b49e-bc0867683fdc)
 
 - Search functionality to filter tasks
 Purpose: The primary goal of search functionality is to empower users to find particular tasks efficiently.
@@ -68,7 +84,10 @@ Purpose: The primary goal of search functionality is to empower users to find pa
 #### Search Bar:
 The user interface typically includes a search bar where users can input keywords, phrases, or specific criteria related to the tasks they are trying to locate.
 
+![Screenshot 2024-01-25 at 23 30 48](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/6ff98cdd-ba82-4e8e-90f1-d2e95ae690c9)
+
 ## Requirements
+
 
 - Python 3.x
 - Django 4.2
