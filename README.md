@@ -32,7 +32,8 @@ The user enters their username and password in the designated fields on the logi
 The system checks the entered credentials against stored user data (usually stored securely in a database).
 If the provided credentials match the stored information, the user is granted access to the system, and a session is established.
 
-![Screenshot 2024-01-25 at 23 30 25](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/6710d895-0fb6-41c1-b7c7-6e5b72ebbdc4)
+![Screenshot 2024-01-25 at 23 30 25](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/dc24289c-4a0e-42d4-a035-d138ca1076d3)
+
 
 ## Register:
 
@@ -59,7 +60,7 @@ After logout, the user is typically redirected to a login page or a homepage, an
 The user navigates to the interface or page where tasks can be created.
 They input relevant information for the new task, such as a title, description, 
 
-![Screenshot 2024-01-25 at 23 34 08](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/deeb3cf0-e26c-4b10-8c9f-b73a0f0e4b9e)
+![Screenshot 2024-01-25 at 23 30 53](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/a903b6e8-1f13-4486-9f27-d543c1ce799b)
 
 
 ## Update Task:
@@ -72,7 +73,8 @@ They navigate to the task details page or a task editing interface.
 
 ### Delete task
 
-![Screenshot 2024-01-25 at 23 32 34](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/04aad1f3-7e11-4569-83a1-ffc08a99f207)
+![Screenshot 2024-01-25 at 23 32 34](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/8b4b8a5c-c74a-4384-971b-cd8f74edbcfb)
+
 
 - Mark tasks as complete
     Here you keep track of your progress and stay organized. 
