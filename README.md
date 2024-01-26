@@ -182,8 +182,6 @@ Connected Heroku with GitHub account and the repository that is been working on
 At the bottom, choose to either automatic deploment or manual deploment, if you set to automatic you every time you make changes with your code and commit, heroku updated the changes.
 
 
-## 404page
-
 ## Testing 
 I tested the website in different browsers chrome,firefox,safari and i confirm that the results are correct.
 
