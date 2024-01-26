@@ -38,7 +38,8 @@ If the provided credentials match the stored information, the user is granted ac
 
     Purpose: The registration process is necessary for new users who want to create an account and gain access to the system.
     
-  ![Screenshot 2024-01-25 at 23 30 48](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/2478e5f0-a1d3-4c9a-b2fa-25fa6bfae2ca)
+![Screenshot 2024-01-25 at 23 30 31](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/4ee7f4f6-df6f-4b90-8014-3d9912d1046e)
+
 
 
 
@@ -84,7 +85,7 @@ Purpose: The primary goal of search functionality is to empower users to find pa
 #### Search Bar:
 The user interface typically includes a search bar where users can input keywords, phrases, or specific criteria related to the tasks they are trying to locate.
 
-![Screenshot 2024-01-25 at 23 30 48](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/6ff98cdd-ba82-4e8e-90f1-d2e95ae690c9)
+![Screenshot 2024-01-25 at 23 30 48](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/023afafe-15eb-4f39-ada3-28aee7d7ada9)
 
 ## Requirements
 
