@@ -208,6 +208,9 @@ I tested the website in different browsers chrome,firefox,safari and i confirm t
 In url task was not in the pathe so the port was not listing and I tad to add tasks in.
 and in setting.py i had set DEBUG = development and the appliction was not functional but then i had to turn it to DEBUG = True.
 
+## Validation 
+all html has been validated on W3C
+
 ## credit 
 Basic structure of and understanding of the page development taken from Code Institute project walkthrogh Hello Django and i think therefore i blog and 
 https://www.youtube.com/watch?v=llbtoQTt4qw  Dennis Ivy
