@@ -58,6 +58,10 @@ After logout, the user is typically redirected to a login page or a homepage, an
     Purpose: The create task operation is used when a user wants to add a new task to their task list or project    
 #### Steps:
 The user navigates to the interface or page where tasks can be created.
+
+you click add and add in your task
+![Screenshot 2024-01-26 at 18 26 50](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/3364e0ea-28af-42a3-adcd-eed1b84eb3ca)
+
 They input relevant information for the new task, such as a title, description, 
 
 ![Screenshot 2024-01-25 at 23 30 53](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/a903b6e8-1f13-4486-9f27-d543c1ce799b)
@@ -69,7 +73,8 @@ They input relevant information for the new task, such as a title, description,
 The user selects the task they want to update from their task list.
 They navigate to the task details page or a task editing interface.
 
-![Screenshot 2024-01-25 at 23 33 37](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/1141eab3-603f-43f4-a243-4d5715ea8360)
+![Screenshot 2024-01-25 at 23 31 25](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/bc68a966-6d49-481a-bb36-48a6006efc54)
+
 
 ### Delete task
 
@@ -87,7 +92,8 @@ Purpose: The primary goal of search functionality is to empower users to find pa
 #### Search Bar:
 The user interface typically includes a search bar where users can input keywords, phrases, or specific criteria related to the tasks they are trying to locate.
 
-![Screenshot 2024-01-25 at 23 30 48](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/023afafe-15eb-4f39-ada3-28aee7d7ada9)
+![Screenshot 2024-01-26 at 18 23 46](https://github.com/JoannaAdermark1/My_django_project/assets/137285482/40f1d920-ff87-4bfc-92bf-f2e866b8941f)
+
 
 ## Requirements
 
