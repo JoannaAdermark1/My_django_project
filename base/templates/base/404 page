@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="WardrobeWhiz" />
+    <meta name="keywords" content="WardrobeWhiz,Clothes Organisation, Orginased Tips ,"/>
+    <title>To Do list application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oops! Page Not Found</h1>
+    <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+    <p>Return to the <a href="index.html">homepage</a> or <a href="contact.html">contact us</a> for assistance.</p>
+    <!-- Footer -->
+    <footer>
+        <ul id="social-networks">
+          <li>
+            <a
+            href="https://www.linkedin.com/in/joanna-adermark-b06066aa"
+            id="linkedin"
+            target="_blank"
+            rel="noopener"
+            aria-label="vist my LinkedIn!(Link opens in a new tab)">
+          <i class="fa-brands fa-linkedin"></i
+        ></a>
+  
+          </li>
+          <li>
+            <a
+          href="https://github.com/JoannaAdermark1"
+          id="github"
+          target="_blank"
+          rel="noopener"
+          aria-label="Go to my GitHub repository!(Link opens in a new tab)"
+          ><i class="fab fa-github"></i
+        ></a>
+          </li>
+        </ul>
+        <p> copyright &copy; 2024 To Do list application</p>
+      </footer>
+      <!-- Font Awesome kit -->
+      <script
+        src="https://kit.fontawesome.com/3b20d96fa9.js"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
